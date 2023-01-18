@@ -520,7 +520,7 @@ line-height: 52px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;  
-    box-shadow: 0,4px,4px rgba(0, 0, 0, 0.25) ;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) ;
 
 }
 .contacts__right_container_text{
