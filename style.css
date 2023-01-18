@@ -187,11 +187,14 @@ color: #000000;
 .about__content_text_leader{
 width: 463px;
 height: 102px;
-font-family: 'Inika';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 52px;
+
+}
+.about__content_text_leader h2{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
 }
 .about__content_text_panel{
     width: 605px;
@@ -236,13 +239,16 @@ line-height: 52px;
 .service__content_text{
     width: 306px;
     height: 94px;
+}   
+.service__content_text h2{
+
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
-}   
+}
 .service__content_btn{
     width: 559px;
     height: 50px;
@@ -362,19 +368,22 @@ flex-direction: column;
 .price__wrapper_left_text{
     width: 452px;
     height: 191px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 50px;
-color: #000000;
-text-align: right;
+
 display: flex;
 flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
 }
-.price__wrapper_left_text p{
+.price__wrapper_left_text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    text-align: right;
+}
+.price__wrapper_left_text h3{
     width: 452px;
     height: 103px;
 }
@@ -428,12 +437,14 @@ align-items: center;
     width: 100px;
     height: 18px;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 20px;
-color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+
 }
+
 .price__wrapper_arrow{
     width: 16px;
 height: 16px;
@@ -446,12 +457,15 @@ background-image: url(arrow.png);
 .price__wrapper_right_prices__text{
     width: 135px;
 height: 49px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;  
-color: #000000;
+
+}
+.price__wrapper_right_prices__text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;  
+    color: #000000;
 }
 .contacts{
     width: 100vw;
@@ -486,6 +500,13 @@ font-weight: 700;
 font-size: 40px;
 line-height: 52px;
 }
+.contacts__center_text h2{
+    font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+}
 .contacts__right{
     width: 450px;
     height: 497px;
@@ -499,7 +520,7 @@ line-height: 52px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;  
-    box-shadow: 0,4px,4px rgba(0, 0, 0, 0.25) ;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) ;
 
 }
 .contacts__right_container_text{
